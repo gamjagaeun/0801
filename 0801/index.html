@@ -1,0 +1,2435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        .header {
+            width: 100%;
+            height: 176px;
+            background-color: tomato;
+            margin: 0 auto;
+        }
+
+        .inner {
+            width: 1260px;
+            height: 172px;
+            background-color: lightgreen;
+            margin: 0 auto;
+
+
+
+        }
+
+        .login_top {
+            width: 1920px;
+            height: 32px;
+            margin: 0 auto;
+            background-color: black;
+        }
+
+        .login {
+            width: 1162px;
+            height: 32px;
+            background-color: blue;
+            margin: 0 auto;
+        }
+
+
+        .login_inner {
+            width: 250px;
+            height: 32px;
+            background-color: gold;
+            float: right;
+        }
+
+
+        .login_inner>ul {
+            margin: 7px 0 0 0px;
+        }
+
+        .login_inner>ul>li {
+            float: left;
+            font-size: 12px;
+            margin: 0 5px 0 0px;
+        }
+
+        .login_inner>ul>li>a {
+            text-decoration: none;
+            color: #adadad;
+        }
+
+
+        .content {
+            height: 172px;
+            background-color: yellow;
+            margin: 0 auto;
+
+        }
+
+        .content_inner {
+            width: 1260px;
+            height: 140px;
+            background-color: pink;
+            margin: 0 auto;
+            bottom: opx;
+        }
+
+        .top {
+            width: 1260px;
+            height: 72px;
+            background-color: red;
+            margin: 0 auto;
+
+        }
+
+        .logo>img {
+            width: 176px;
+            height: 44px;
+        }
+
+        .header_nav {
+            width: 1260px;
+            height: 67.97px;
+            background-color: green;
+            margin: 0 auto;
+        }
+
+        .header_nav>nav>ul {
+            font-size: 16px;
+            color: #000;
+
+        }
+
+        .navbutton {
+            width: 135px;
+            height: 45px;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+
+        }
+
+        .navbutton>button {
+            width: 36px;
+            height: 36px;
+            border: none;
+            background: none;
+        }
+
+        .navbutton>button>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        nav {
+            width: 694px;
+            height: 44px;
+            background-color: lightgreen;
+            float: left;
+            margin: 24px 0 0 0px;
+        }
+
+
+
+
+
+        #slider {
+            width: 1920px;
+            height: 464px;
+            background-color: cyan;
+            margin: 0 auto;
+        }
+
+        #slider>img {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+
+
+
+
+        .price {
+            width: 100%;
+            height: 578px;
+            margin: 0 auto;
+        }
+
+        .price_inner {
+            width: 1168px;
+            height: 577.97px;
+            margin: 0 auto;
+        }
+
+        .today {
+            width: 1168px;
+            height: 36px;
+            background-color: lightgreen;
+            margin: 0 0 20px;
+        }
+
+        .today>h3 {
+            font-size: 28px;
+            color: #000;
+            letter-spacing: -1px;
+        }
+
+        .list {
+            width: 1168px;
+            height: 522px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .list_box1 {
+            width: 567.98px;
+            height: 522px;
+            background-color: tomato;
+            position: relative;
+            border-radius: 20px;
+        }
+
+        .list_box1>img {
+            border-radius: 12px 12px 0 0;
+        }
+
+        .list_info1 {
+            width: 567.98px;
+            height: 168px;
+            background-color: #f5f5f5;
+            position: absolute;
+            bottom: 0;
+            border-radius: 0 0 12px 12px;
+        }
+
+        .info1 {
+            width: 504px;
+            height: 104px;
+            margin: 32px;
+        }
+
+        .infologo1 {
+            font-size: 20px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .infoname1 {
+            font-size: 20px;
+            color: #000;
+            font-weight: 50px;
+            margin: 0 0 0 5px;
+        }
+
+        .infoin1 {
+            font-size: 18px;
+            color: #a9a9a9;
+            font-weight: 50px;
+            display: block;
+            margin: 15px 0 0px;
+        }
+
+        .infobox1 {
+            width: 504px;
+            height: 36px;
+            margin: 15px 0 0px;
+        }
+
+        .infoprice1 {
+            font-size: 24px;
+            color: #000;
+            font-weight: 300px;
+            letter-spacing: 1.2px;
+        }
+
+        .infoone1 {
+            font-size: 16px;
+            color: #000;
+        }
+
+        .infonum1 {
+            font-size: 24px;
+            color: #ff752a;
+            margin: 0 0 0 3px;
+        }
+
+        .infoprice_small1 {
+            font-size: 16px;
+            color: #c2c2c2;
+            text-decoration: line-through;
+            margin: 0 0 0 5px;
+        }
+
+        .infobutton1 {
+            float: right;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #80C342;
+            border: none;
+        }
+
+        .infobutton1>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 1px 0 0px;
+        }
+
+
+        .list_box2 {
+            width: 567.98px;
+            height: 522px;
+            position: relative;
+        }
+
+        .list_box2>img {
+            border-radius: 12px 12px 0 0px;
+        }
+
+        .list_info2 {
+            width: 567.98px;
+            height: 168px;
+            background-color: #f5f5f5;
+            position: absolute;
+            bottom: 0;
+            border-radius: 0 0 12px 12px;
+        }
+
+        .info2 {
+            width: 504px;
+            height: 104px;
+            margin: 32px;
+        }
+
+        .infologo2 {
+            font-size: 20px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .infoname2 {
+            font-size: 20px;
+            color: #000;
+            font-weight: 50px;
+            margin: 0 0 0 5px;
+        }
+
+        .infoin2 {
+            font-size: 18px;
+            color: #a9a9a9;
+            font-weight: 50px;
+            display: block;
+            margin: 15px 0 0px;
+        }
+
+        .infobox2 {
+            width: 504px;
+            height: 36px;
+            margin: 15px 0 0px;
+        }
+
+        .infoprice2 {
+            font-size: 24px;
+            color: #000;
+            font-weight: 300px;
+            letter-spacing: 1.2px;
+        }
+
+        .infoone2 {
+            font-size: 16px;
+            color: #000;
+        }
+
+        .infonum2 {
+            font-size: 24px;
+            color: #ff752a;
+            margin: 0 0 0 3px;
+        }
+
+        .infoprice_small2 {
+            font-size: 16px;
+            color: #c2c2c2;
+            text-decoration: line-through;
+            margin: 0 0 0 5px;
+        }
+
+        .infobutton2 {
+            float: right;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #80C342;
+            border: none;
+        }
+
+        .infobutton2>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 1px 0 0px;
+        }
+
+
+
+
+        #premium {
+            width: 100%;
+            height: 890px;
+            margin: 60px auto 0px;
+
+        }
+
+        .premium_inner {
+            width: 1168px;
+            height: 890px;
+            /* background-color: pink; */
+            background-image: url("./img/premium_inner_bg.jpg");
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .premium>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .inner1 {
+            width: 600px;
+            height: 271px;
+            float: right;
+            margin: 130px 100px 0 0px;
+
+        }
+
+        .inner1>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .inner_box {
+            width: 951px;
+            height: 336px;
+
+            float: right;
+            display: flex;
+            margin: 40px 100px 0 0px;
+        }
+
+        .inner2 {
+            width: 208px;
+            height: 336px;
+
+
+            float: left;
+            margin: 0px 39px 0 0px;
+        }
+
+        .inner22 {
+            width: 208px;
+            height: 208px;
+        }
+
+        .inner22>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .inner22>p {
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: -.4px;
+            margin: 10px 0 0 0px;
+            line-height: 24px;
+
+
+
+        }
+
+        .inner22>.inner22_1 {
+            font-size: 14px;
+            text-decoration: line-through;
+            color: #adadad;
+            display: block;
+            margin: 5px 0 0 0px;
+
+        }
+
+        .inner22>.inner22_2 {
+            font-size: 20px;
+            color: #fff;
+            line-height: 28px;
+
+        }
+
+        .inner22>.inner22_3 {
+            font-size: 16px;
+            color: #fff;
+            margin: 0 0 0 2px;
+        }
+
+        .inner22>.inner22_4 {
+            font-size: 20px;
+            color: #ff752a;
+            margin: 0 0 0 2px;
+        }
+
+        .inner22>button {
+            float: right;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin: 0 4px;
+            padding: 4px;
+            background-color: #80C342;
+            border: none;
+        }
+
+        .inner22>button>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 1px 0 0px;
+        }
+
+        .inner22>p {
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: -.4px;
+            margin: 10px 0 0 0px;
+            line-height: 24px;
+
+
+
+        }
+
+        .inner22>.inner22_1 {
+            font-size: 14px;
+            text-decoration: line-through;
+            color: #adadad;
+            display: block;
+            margin: 5px 0 0 0px;
+
+        }
+
+        .inner22>.inner22_2 {
+            font-size: 20px;
+            color: #fff;
+            line-height: 28px;
+
+        }
+
+        .inner22>.inner22_3 {
+            font-size: 16px;
+            color: #fff;
+            margin: 0 0 0 2px;
+        }
+
+        .inner22>.inner22_4 {
+            font-size: 20px;
+            color: #ff752a;
+            margin: 0 0 0 2px;
+        }
+
+        .inner22>button {
+            float: right;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin: 0 4px;
+            padding: 4px;
+            background-color: #80C342;
+            border: none;
+        }
+
+        .inner3 {
+            width: 208px;
+            height: 336px;
+            float: left;
+            margin: 0px 39px 0 0px;
+        }
+
+        .inner33 {
+            width: 208px;
+            height: 208px;
+        }
+
+        .inner33>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .inner33>p {
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: -.4px;
+            margin: 10px 0 0 0px;
+            line-height: 24px;
+
+
+
+        }
+
+        .inner33>.inner33_1 {
+            font-size: 14px;
+            text-decoration: line-through;
+            color: #adadad;
+            display: block;
+            margin: 5px 0 0 0px;
+
+        }
+
+        .inner33>.inner33_2 {
+            font-size: 20px;
+            color: #fff;
+            line-height: 28px;
+
+        }
+
+        .inner33>.inner33_3 {
+            font-size: 16px;
+            color: #fff;
+            margin: 0 0 0 2px;
+        }
+
+        .inner33>.inner33_4 {
+            font-size: 20px;
+            color: #ff752a;
+            margin: 0 0 0 2px;
+        }
+
+        .inner33>button {
+            float: right;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin: 0 4px;
+            padding: 4px;
+            background-color: #80C342;
+            border: none;
+        }
+
+        .inner33>button>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 1px 0 0px;
+        }
+
+        .inner4 {
+            width: 208px;
+            height: 336px;
+            float: left;
+            margin: 0px 39px 0 0px;
+        }
+
+        .inner44 {
+            width: 208px;
+            height: 208px;
+        }
+
+        .inner44>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .inner44>p {
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: -.4px;
+            margin: 10px 0 0 0px;
+            line-height: 24px;
+
+
+
+        }
+
+        .inner44>.inner44_1 {
+            font-size: 14px;
+            text-decoration: line-through;
+            color: #adadad;
+            display: block;
+            margin: 5px 0 0 0px;
+
+        }
+
+        .inner44>.inner44_2 {
+            font-size: 20px;
+            color: #fff;
+            line-height: 28px;
+
+        }
+
+        .inner44>.inner44_3 {
+            font-size: 16px;
+            color: #fff;
+            margin: 0 0 0 2px;
+        }
+
+        .inner44>.inner44_4 {
+            font-size: 20px;
+            color: #ff752a;
+            margin: 0 0 0 2px;
+        }
+
+        .inner44>button {
+            float: right;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin: 0 4px;
+            padding: 4px;
+            background-color: #80C342;
+            border: none;
+        }
+
+        .inner44>button>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 1px 0 0px;
+        }
+
+        .inner5 {
+            width: 208px;
+            height: 336px;
+            float: left;
+            margin: 0px 39px 0 0px;
+        }
+
+        .inner55 {
+            width: 208px;
+            height: 208px;
+        }
+
+        .inner55>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .inner55>p {
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: -.4px;
+            margin: 10px 0 0 0px;
+            line-height: 24px;
+
+
+
+        }
+
+        .inner55>.inner55_1 {
+            font-size: 14px;
+            text-decoration: line-through;
+            color: #adadad;
+            display: block;
+            margin: 5px 0 0 0px;
+
+        }
+
+        .inner55>.inner55_2 {
+            font-size: 20px;
+            color: #fff;
+            line-height: 28px;
+
+        }
+
+        .inner55>.inner55_3 {
+            font-size: 16px;
+            color: #fff;
+            margin: 0 0 0 2px;
+        }
+
+        .inner55>.inner55_4 {
+            font-size: 20px;
+            color: #ff752a;
+            margin: 0 0 0 2px;
+        }
+
+        .inner55>button {
+            float: right;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin: 0 4px;
+            padding: 4px;
+            background-color: #80C342;
+            border: none;
+        }
+
+        .inner55>button>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 1px 0 0px;
+        }
+
+        .premium_inner>.premium_button {
+            text-align: center;
+            color: #fff;
+            width: 270px;
+            height: 42px;
+            margin: 0 450px 0;
+            border: 1px solid #fff;
+            border-radius: 40px;
+            position: absolute;
+            bottom: 50px;
+        }
+
+        .premium_inner>.premium_button>button {
+            font-size: 20px;
+            border: none;
+            background: none;
+            color: #fff;
+            height: 100%;
+        }
+
+
+
+
+        .oder {
+            width: 100%;
+            height: 336px;
+            margin: 60px auto 0px;
+        }
+
+        .oder_inner {
+            width: 1168px;
+            height: 336px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .oder_inner>a {
+            font-size: 28px;
+            color: #000;
+            background-color: pink;
+        }
+
+        .oder_img {
+            width: 1168px;
+            height: 280px;
+            position: absolute;
+            bottom: 0;
+            border-radius: 20px;
+            letter-spacing: -1px;
+        }
+
+        .oder_img>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 24px;
+        }
+
+
+
+
+        .store {
+            height: 1076px;
+            background-color: #fafafa;
+            margin: 60px auto 0px;
+            padding: 60px 0 0px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .store_inner {
+            width: 1168px;
+            height: 1016px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+        }
+
+        .store_text {
+            width: 270px;
+            height: 36px;
+            background-color: greenyellow;
+        }
+
+        .store_text>a {
+            font-size: 28px;
+            color: #000;
+            letter-spacing: -1px;
+        }
+
+
+        .store_list {
+            width: 1168px;
+            height: 960px;
+            margin: 27px auto 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .store_item_box {
+            width: 1168px;
+            height: 94px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2px;
+        }
+
+        .store-item {
+            height: 42px;
+            background-color: white;
+            border: 1px solid #ebebeb;
+            border-radius: 8px;
+        }
+
+        .store-item>span {
+            color: black;
+            font-size: 14px;
+            padding: 10px 16px;
+            font-weight: bold;
+            vertical-align: middle;
+            line-height: 42px;
+        }
+
+        .store_box1 {
+            width: 208px;
+            height: 381px;
+        }
+
+        .store_img1 {
+            width: 208px;
+            height: 208px;
+        }
+
+        .store_img1>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        .store_product1 {
+            width: 208px;
+            height: 161px;
+            padding: 12px 0 0px;
+        }
+
+        .store_product1-wrap>pigcaption {
+            font-size: 16px;
+            color: #000;
+            font-weight: 700;
+        }
+
+        .store_product1>pigcaption {
+            font-size: 16px;
+            color: #000;
+            font-weight: 700;
+        }
+
+        .store_logo1>pigcaption {
+            font-size: 16px;
+            color: #000;
+            margin: 0 0 0 5px;
+            font-weight: 700;
+        }
+
+
+        .store_product1-wrap {
+            display: flex;
+        }
+
+        .store_product11 {
+            font-size: 16px;
+            color: #000;
+            display: block;
+            margin: 8px 0 0px;
+            line-height: 1.5;
+            letter-spacing: -0.4px;
+            height: 50px;
+        }
+
+        .store_info1 {
+            width: 208px;
+            height: 56px;
+            padding: 8px 0 0px;
+            margin: 10px 0 0px;
+        }
+
+        .store_product111 {
+            display: block;
+            text-decoration: line-through;
+            color: #c2c2c2;
+            font-size: 14px;
+            padding: 0 0 10px;
+            width: 208px;
+            height: 16px;
+        }
+
+        .store_product12 {
+            font-size: 20px;
+            color: #000;
+            line-height: 1.5;
+            letter-spacing: -0.4px;
+        }
+
+        .store_product122 {
+            font-size: 14px;
+            color: #000;
+        }
+
+        .store_info1 {
+            display: block;
+            padding: 8px 0 0px;
+        }
+
+        .store_info1>dd {
+            font-size: 20px;
+            color: #ff752a;
+            display: inline;
+            margin: 0 0 0 5px;
+        }
+
+        .store_info1>button {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #80C342;
+            border: none;
+            float: right;
+            margin: -15px 0 0px;
+        }
+
+        .store_info1>button>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 2px 0 0px;
+        }
+
+
+
+
+        .new {
+            width: 100%;
+            height: 462.38px;
+            margin: 60px auto 0px;
+        }
+
+        .new_inner {
+            width: 1168px;
+            height: 462px;
+            margin: 0 auto;
+        }
+
+        .new_text {
+            width: 310px;
+            height: 36px;
+            background-color: pink;
+        }
+
+        .new_text>a {
+            font-size: 28px;
+            color: #000;
+            display: inline;
+            letter-spacing: -1px;
+        }
+
+        .new_box {
+            height: 372px;
+            margin: 20px 0px;
+            display: flex;
+        }
+
+        .new1 {
+            width: 368px;
+            height: 372px;
+            margin: 0 32px 0 0px;
+        }
+
+        .newimg1 {
+            width: 368px;
+            height: 230px;
+        }
+
+        .newimg1>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+
+        .product_info1 {
+            width: 368px;
+            height: 134px;
+            margin: 8px 0px;
+        }
+
+        .product_info1>img {
+            width: 134px;
+            height: 134px;
+            float: left;
+            border-radius: 12px;
+        }
+
+        .new_img1>img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .newinfo_box1 {
+            width: 220px;
+            height: 72px;
+            float: right;
+
+        }
+
+        .info_box1 {
+            font-size: 16px;
+            color: #000;
+            display: block;
+            font-weight: bold;
+            padding: 0 0 5px;
+            letter-spacing: -.4px;
+        }
+
+        .info_box2 {
+            width: 220px;
+            height: 48px;
+            line-height: 24px;
+            letter-spacing: -.4px;
+        }
+
+        .newinfo_price1 {
+            width: 220px;
+            height: 48px;
+            float: right;
+            margin: 5px 0 0 0px;
+        }
+
+        .info_price1 {
+            font-size: 14px;
+            color: #c2c2c2;
+            text-decoration: line-through;
+            display: block;
+            padding: 0 0 10px;
+        }
+
+        .info_price2 {
+            font: 20px;
+            color: #000;
+            background-color: lightgreen;
+        }
+
+        .info_price3 {
+            font: 14px;
+            color: #000;
+        }
+
+        .info_price4 {
+            font: 20px;
+            color: #ff752a;
+        }
+
+        .newinfo_price1>button {
+            width: 36px;
+            height: 36px;
+            float: right;
+            background-color: #80C342;
+            border-radius: 50%;
+            border: none;
+        }
+
+        .newinfo_price1>button>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 5px 0 0;
+        }
+
+        .new2 {
+            width: 368px;
+            height: 372px;
+            background-color: white;
+            margin: 0 32px 0 0px;
+        }
+
+        .newimg2 {
+            width: 368px;
+            height: 230px;
+        }
+
+        .newimg2>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+
+        .product_info2 {
+            width: 368px;
+            height: 134px;
+            margin: 8px 0px;
+        }
+
+        .product_info2>img {
+            width: 134px;
+            height: 134px;
+            float: left;
+            border-radius: 12px;
+        }
+
+        .new_img2>img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .newinfo_box2 {
+            width: 220px;
+            height: 72px;
+            float: right;
+
+        }
+
+        .info_box21 {
+            font-size: 16px;
+            color: #000;
+            display: block;
+            font-weight: bold;
+            padding: 0 0 5px;
+            letter-spacing: -.4px;
+        }
+
+        .info_box22 {
+            width: 220px;
+            height: 48px;
+            line-height: 24px;
+            letter-spacing: -.4px;
+        }
+
+        .newinfo_price2 {
+            width: 220px;
+            height: 48px;
+
+            float: right;
+            margin: 5px 0 0 0px;
+        }
+
+        .info_price21 {
+            font-size: 14px;
+            color: #c2c2c2;
+            text-decoration: line-through;
+            display: block;
+            padding: 0 0 10px;
+        }
+
+        .info_price22 {
+            font: 20px;
+            color: #000;
+        }
+
+        .info_price23 {
+            font: 14px;
+            color: #000;
+        }
+
+        .info_price24 {
+            font: 20px;
+            color: #ff752a;
+        }
+
+        .newinfo_price2>button {
+            width: 36px;
+            height: 36px;
+            float: right;
+            background-color: #80C342;
+            border-radius: 50%;
+            border: none;
+        }
+
+        .newinfo_price2>button>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 5px 0 0;
+        }
+
+        .new3 {
+            width: 368px;
+            height: 372px;
+            background-color: white;
+            margin: 0 32px 0 0px;
+        }
+
+        .newimg3 {
+            width: 368px;
+            height: 230px;
+
+        }
+
+        .newimg3>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+
+        .product_info3 {
+            width: 368px;
+            height: 134px;
+            margin: 8px 0px;
+        }
+
+        .product_info3>img {
+            width: 134px;
+            height: 134px;
+            float: left;
+            border-radius: 12px;
+        }
+
+        .new_img3>img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .newinfo_box3 {
+            width: 220px;
+            height: 72px;
+            float: right;
+
+        }
+
+        .info_box31 {
+            font-size: 16px;
+            color: #000;
+            display: block;
+            font-weight: bold;
+            padding: 0 0 5px;
+            letter-spacing: -.4px;
+        }
+
+        .info_box32 {
+            width: 220px;
+            height: 48px;
+            line-height: 24px;
+            letter-spacing: -.4px;
+        }
+
+        .newinfo_price3 {
+            width: 220px;
+            height: 48px;
+            float: right;
+            margin: 5px 0 0 0px;
+        }
+
+        .info_price31 {
+            font-size: 14px;
+            color: #c2c2c2;
+            text-decoration: line-through;
+            display: block;
+            padding: 0 0 10px;
+        }
+
+        .info_price32 {
+            font: 20px;
+            color: #000;
+            background-color: lightgreen;
+        }
+
+        .info_price33 {
+            font: 14px;
+            color: #000;
+        }
+
+        .info_price34 {
+            font: 20px;
+            color: #ff752a;
+        }
+
+        .newinfo_price3>button {
+            width: 36px;
+            height: 36px;
+            float: right;
+            background-color: #80C342;
+            border-radius: 50%;
+            border: none;
+        }
+
+        .newinfo_price3>button>img {
+            width: 50%;
+            height: 50%;
+            margin: 5px 5px 0 0;
+        }
+
+
+
+
+
+        .sale {
+            width: 100%;
+            height: 410px;
+            margin: 0 auto;
+            padding: 60px 0 0px;
+        }
+
+        .sale_inner {
+            width: 1168px;
+            height: 410px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sale_text {
+            width: 250x;
+            height: 36px;
+            background-color: pink;
+
+        }
+
+        .sale_text>a {
+            font-size: 28px;
+            color: #000;
+            display: inline;
+        }
+
+
+        .sale_box {
+            width: 1168px;
+            height: 320px;
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0 0px;
+        }
+
+        .sale_box1 {
+            width: 568px;
+            height: 320px;
+            ;
+        }
+
+        .sale_box1>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 24px;
+        }
+
+        .sale_box2 {
+            width: 568px;
+            height: 320px;
+        }
+
+        .sale_box2>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 24px;
+        }
+
+
+
+
+        .sell {
+            width: 100%;
+            height: 1000px;
+            background-color: gray;
+            margin: 60px auto 0;
+        }
+
+        .sell_inner {
+            width: 1168px;
+            height: 998px;
+            background-color: lightgreen;
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .sell_text {
+            width: 300px;
+            height: 36px;
+        }
+
+        .sell_text>a {
+            font-size: 28px;
+            color: #000;
+            display: inline;
+            margin: 0px;
+        }
+
+        .sell_inner1 {
+            width: 1168px;
+            height: 942px;
+            background-color: greenyellow;
+        }
+
+        .sell_itembox {
+            width: 1168px;
+            height: 50px;
+            background-color: pink;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin: 0 0 20px;
+        }
+
+        .sell_item {
+            height: 42px;
+            border: 1px solid #ebebeb;
+            background-color: #fff;
+            border-radius: 20px;
+            display: inline;
+
+        }
+
+        .sell_item>span {
+            color: black;
+            font-size: 14px;
+            font-weight: bold;
+            vertical-align: middle;
+            line-height: 42px;
+            background-color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .sell_product {
+            width: 1168px;
+            height: 872px;
+            background-color: green;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: space-between;
+            justify-content: space-between;
+        }
+
+        .sell_product1 {
+            width: 568px;
+            height: 872px;
+            background-color: blue;
+            border-radius: 8px;
+        }
+
+        .sell_proimg1 {
+            width: 568px;
+            height: 654px;
+        }
+
+        .sell_proimg1>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .sell_info1 {
+            width: 568px;
+            height: 218px;
+            background-color: yellow;
+            box-sizing: border-box; padding: 18px 16px;
+        }
+
+        .sell_info1>figcaption {
+            font-size: 18px;
+            color: #000;
+            background-color: #80C342;
+            font-weight: 700;
+            height: 26px;
+        }
+
+        .sell_info11 {
+            font-size: 20px;
+            color: #000;
+            height: 56px;
+            background-color: tomato;
+            margin: 10px 0 0px;
+        }
+
+        .info_inner1 {
+            width: 502px;
+            height: 62px;
+            margin: 12px 0 0px;
+            padding: 8px 0 0px;
+            background-color: green;
+            display: flex;
+        }
+
+        .sell.price1 {
+            width:74px ;
+            font-size: 24px;
+            color: #000;
+            height: 30px;
+            background-color: red;
+        }
+
+        .sell.info13 {
+            font-size: 16px;
+            color: #000;
+        }
+
+        .info_inner1>button {
+            width: 40px;
+            height: 40px;
+            background-color: #80C342;
+            float: right;
+            border-radius: 50%;
+            border: none;
+        }
+
+        .info_inner1>button>img {
+            width: 50%;
+            height: 50%;
+            margin:3px 3px 0 0px;
+        }
+
+        .sell_product2 {
+            width: 268px;
+            height: 420px;
+            background-color: pink;
+        }
+        .sell_proimg2 {width:268px; height: 268px; }
+        .sell_proimg2 > img {width: 100%; height: 100%;}
+        .sell_info2 { width: 268px; height: 152px;   box-sizing: border-box; padding: 12px 16px 18px; background-color: yellow;}
+        .sell_info2 > figcaption {font-size:16px; color: #000; font-weight: 700;
+            line-height: 1.44; letter-spacing: -.8px;}
+        .sell_info21 {font-size: 16px; color: #000; width: 236px; height: 50px;
+            line-height: 1.2; letter-spacing: -1px; text-align: left; 
+            display: block; background-color: tomato; margin: 5px 0 0px; }
+        .info_inner2 > button {width: 40px; height: 40px; background-color:#80C342 ; 
+        border-radius: 50%; border: none; float: right; }
+        .info_inner2 > button > img {width: 50%; height: 50%; margin:4px 2px 0 0px;}  
+        .info_inner2 {height: 56px; bottom: 0; background-color: blue; }
+        .sell_price2 {font-size: 20px; color: #000;}
+        .sell_info23 {font-size: 14px; color: #000; display: inline; }  
+        
+
+        .sell_product3 {
+            width: 268px;
+            height: 420px;
+            background-color: pink;
+        }
+        .sell_proimg3 {width:268px; height: 268px; }
+        .sell_proimg3 > img {width: 100%; height: 100%;}
+        .sell_info3 { width: 268px; height: 152px;   box-sizing: border-box; padding: 12px 16px 18px; background-color: yellow;}
+        .sell_info3 > figcaption {font-size:16px; color: #000; font-weight: 700;
+            line-height: 1.44; letter-spacing: -.8px;}
+        .sell_info31 {font-size: 16px; color: #000; width: 236px; height: 50px;
+            line-height: 1.5; letter-spacing: -.8px; margin: 5px 0 0px; display: block; background-color: tomato;}
+        .info_inner3 > button {width: 32px; height: 32px; background-color:#80C342 ; 
+        border-radius: 50%; border: none; float: right; margin: -5px 0  0px; }
+        .info_inner3 > button > img {width: 50%; height: 50%; margin:4px 2px 0 0px;}
+        .sell_info32 {text-decoration: line-through; color: #c2c2c2; font-size: 14px; margin:3px auto 0;}
+        .info_inner3 {background-color: blue;}
+        .sell_price3 {font-size: 20px; color: #000;}
+        .sell_info33 {font-size: 14px; color: #000; display: inline;}
+        .sell_price34 {font-size: 20px; color: #ff752a; display: inline;}
+
+
+
+        .sell_product4 {
+            width: 268px;
+            height: 420px;
+            background-color: pink;
+        }
+
+        .sell_product5 {
+            width: 268px;
+            height: 420px;
+            background-color: pink;
+        }
+
+
+        .middle {
+            height: 180px;
+            margin-top: 60px;
+        }
+
+        .middle_box {
+            width: 1168px;
+            height: 180px;
+            margin: 0 auto;
+        }
+
+        .middle_box>img {
+            border-radius: 24px;
+        }
+
+
+
+        .brand {
+            width: 100%;
+            height: 1274px;
+            background-color: beige;
+            margin: 60px auto 0;
+        }
+
+        footer {
+            width: 1920px;
+            height: 270px;
+            background-color: pink;
+            margin: 100px auto 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+
+        <figure>
+            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/06/28/121C586DB31045F2AB2A.jpg" alt="">
+        </figure>
+
+        <div class="content">
+            <div class="inner">
+                <div class="content_inner">
+                    <div clas="login_top">
+                        <div class="login">
+                            <div class="login_inner">
+                                <ul>
+                                    <li><a href="#">로그인</a></li>
+                                    <li><a href="#">|</a></li>
+                                    <li><a href="#">회원가입</a></li>
+                                    <li><a href="#">|</a></li>
+                                    <li><a href="#">고객지원센터</a></li>
+                                    <li><a href="#">|</a></li>
+                                    <li><a href="#">배송안내</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="top">
+                        <div class="logo">
+                            <img src="https://shop.pulmuone.co.kr/assets/pc/images/logo/pulmuone-shop.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="header_nav">
+                        <nav>
+                            <div class="navbutton">
+                                <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/menu-64.png"
+                                        alt=""></button>
+                                전체 카테고리
+                            </div>
+                            <ul>
+                                <li><a href="#">베스트</a></li>
+                                <li><a href="#">당일배송</a></li>
+                                <li><a href="#">매장배송</a></li>
+                                <li><a href="#">지금세일</a></li>
+                                <li><a href="#">신상품</a></li>
+                                <li><a href="#">기획전/이벤트</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </header>
+
+
+
+
+    <div id="slider">
+        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/06/28/9B9A3F4B89034A399CD3.jpg" alt="">
+    </div>
+
+
+
+
+    <section class="price">
+        <div class="price_inner">
+            <div class="today">
+                <h3>오늘만, e가격</h3>
+            </div>
+            <div class="list">
+                <div class="list_box1">
+                    <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/07/21/AB7C2C97B9474A8FBAA9.jpg" alt="">
+                    <div class="list_info1">
+                        <div class="info1">
+                            <span class="infologo1">[풀스키친]</span>
+                            <span class="infoname1">스위트 샤인머스캣 Plus 190mlX24EA</span>
+                            <span class="infoin1">#프리바이오틱스 유산균 함유</span>
+                            <div class="infobox1">
+                                <span class="infoprice1">17,760</span>
+                                <span class="infoone1">원</span>
+                                <span class="infonum1">38%</span>
+                                <span class="infoprice_small1">28,800</span>
+                                <button class="infobutton1">
+                                    <img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list_box2">
+                    <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/07/21/ED7C91CBF472414D9C48.jpg" alt="">
+                    <div class="list_info2">
+                        <div class="info2">
+                            <span class="infologo2">[풀비타]</span>
+                            <span class="infoname2">스브라이트아이 루테인(0.5gX120캅셀)</span>
+                            <span class="infoin2">#눈건강을 위한 이중복합기능성</span>
+                            <div class="infobox2">
+                                <span class="infoprice2">20,000</span>
+                                <span class="infoone2">원</span>
+                                <span class="infonum2">50%</span>
+                                <span class="infoprice_small2">40,000</span>
+                                <button class="infobutton2">
+                                    <img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <section id="premium">
+        <div class="premium_inner">
+            <div class="inner1">
+                <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2022/11/04/FA3BBE07616341308A05.jpg" alt="">
+            </div>
+
+            <div class="inner_box">
+                <div class="inner2">
+                    <div class="inner22">
+                        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2021/06/03/216_C1DFAF22585E48A985CA.jpg"
+                            alt="">
+                        <p> 행복한 닭이 낳은 동물복지 유정란(10입)</p>
+                        <span class="inner22_1">6,980</span>
+                        <span class="inner22_2">3,900</span>
+                        <span class="inner22_3">원</span>
+                        <span class="inner22_4">44%</span>
+                        <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                alt=""></button>
+                    </div>
+                </div>
+
+                <div class="inner3">
+                    <div class="inner33">
+                        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/04/07/216_2B8E8EA4099746A98FC3.jpg"
+                            alt="">
+                        <p>우리콩 생나또 99g(49.5gX2EA)</p>
+                        <span class="inner33_1">3,800</span>
+                        <span class="inner33_2">1,900</span>
+                        <span class="inner33_3">원</span>
+                        <span class="inner33_4">50%</span>
+                        <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                alt=""></button>
+                    </div>
+                </div>
+
+                <div class="inner4">
+                    <div class="inner44">
+                        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2021/06/10/216_682D4A16F832449D9DDC.jpg"
+                            alt="">
+                        <p>[2입기획]고소한 손맛 두부(300gX2EA)</p>
+                        <span class="inner44_1">4,300</span>
+                        <span class="inner44_2">2,900</span>
+                        <span class="inner44_3">원</span>
+                        <span class="inner44_4">32%</span>
+                        <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                alt=""></button>
+                    </div>
+                </div>
+
+                <div class="inner5">
+                    <div class="inner55">
+                        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/05/02/216_B02CD185F590470382F2.jpg"
+                            alt="">
+                        <p>올가 동물복지 목장우유(900ml)</p>
+                        <span class="inner55_1">5,500</span>
+                        <span class="inner55_2">2,900</span>
+                        <span class="inner55_3">원</span>
+                        <span class="inner55_4">47%</span>
+                        <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="premium_button">
+                <button>더보기></button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="oder">
+        <div class="oder_inner">
+            <a>녹즙, 내 맘대로 주문</a>
+            <a>></a>
+            <div class="oder_img">
+                <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2021/11/25/F6B0CFF716104B6BAC16.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="store">
+        <div class="store_inner">
+            <div class="store_text">
+                <a>잘 나가요, 이 상품</a>
+                <a>></a>
+                <div class="store_list">
+                    <ul class="store_item_box">
+                        <li class="store-item"><span>전체</span></li>
+                        <li class="store-item"><span>로하스</span></li>
+                        <li class="store-item"><span>두부⸱콩나물⸱달걀</span></li>
+                        <li class="store-item"> <span>과일⸱채소⸱쌀</span></li>
+                        <li class="store-item"><span>정육⸱달걀⸱수산</span> </li>
+                        <li class="store-item"><span>만두⸱피자⸱떡볶이</span></li>
+                        <li class="store-item"><span>밥⸱면⸱간편식</span></li>
+                        <li class="store-item"><span>김치⸱반찬⸱국탕</span></li>
+                        <li class="store-item"><span>양념⸱소스⸱유지</span></li>
+                        <li class="store-item"><span>간식⸱차⸱음료</span></li>
+                        <li class="store-item"><span>건강식품</span></li>
+                        <li class="store-item"><span>일일배달녹즙⸱음료</span></li>
+                        <li class="store-item"><span>이유식⸱키즈</span> </li>
+                        <li class="store-item"><span>디자인밀 맞춤식단</span></li>
+                        <li class="store-item"><span>생활⸱주방⸱반려용품</span></li>
+                        <li class="store-item"><span>주방⸱생활가전</span></li>
+                        <li class="store-item"><span>뷰티용품</span></li>
+                    </ul>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2021/06/03/320_C1DFAF22585E48A985CA.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <div class="store_product1-wrap">
+                                <div class="store_product1-item">
+                                    <img src="https://shop.pulmuone.co.kr/assets/pc/images/common/orga-filled.svg"
+                                        alt="">
+                                </div>
+                                <pigcaption>ORGA</pigcaption>
+                            </div>
+                            <span class="store_product11">행복한 닭이 낳은 동물복지 유정란 (10입)</span>
+                            <div class="store_info1">
+                                <d class="store_product111">6,980</d>
+                                <span class="store_product12">3,900</span>
+                                <d class="store_product122">원</d>
+                                <dd>44%</dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/04/07/320_2B8E8EA4099746A98FC3.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <div class="store_product1-wrap">
+                                <div class="store_product1-item">
+                                    <img src="https://shop.pulmuone.co.kr/assets/pc/images/common/orga-filled.svg"
+                                        alt="">
+                                </div>
+                                <pigcaption>ORGA</pigcaption>
+                            </div>
+                            <span class="store_product11">[2입기획] 고소한 손맛 두부 (300gx2EA)</span>
+                            <div class="store_info1">
+                                <d class="store_product111">4,300</d>
+                                <span class="store_product12">2,900</span>
+                                <d class="store_product122">원</d>
+                                <dd>32%</dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2021/06/10/320_682D4A16F832449D9DDC.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <div class="store_product1-wrap">
+                                <div class="store_product1-item">
+                                    <img src="https://shop.pulmuone.co.kr/assets/pc/images/common/orga-filled.svg"
+                                        alt="">
+                                </div>
+                                <pigcaption>ORGA</pigcaption>
+                            </div>
+                            <span class="store_product11">우리콩 생나또 99g (49.5gx2EA)</span>
+                            <div class="store_info1">
+                                <d class="store_product111">3,800</d>
+                                <span class="store_product12">1,900</span>
+                                <d class="store_product122">원</d>
+                                <dd>50%</dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2022/02/07/320_4363605BD73F4E13B9E8.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <pigcaption>디자인밀</pigcaption>
+                            <span class="store_product11">정성한상 (1일1식)</span>
+                            <div class="store_info1">
+                                <d class="store_product111">7,500</d>
+                                <span class="store_product12">7,120</span>
+                                <d class="store_product122">원</d>
+                                <dd>5%</dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2020/12/10/320_7D975CAB07F24AE7AACD.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <div class="store_product1-wrap">
+                                <div class="store_product1-item">
+                                    <img src="https://shop.pulmuone.co.kr/assets/pc/images/common/orga-filled.svg"
+                                        alt="">
+                                </div>
+                                <pigcaption class="temp">올가</pigcaption>
+                            </div>
+                            <span class="store_product11">멀티박 무항생제 한우 불고기 (200g)</span>
+                            <div class="store_info1">
+                                <d class="store_product111">19,800</d>
+                                <span class="store_product12">11,500</span>
+                                <d class="store_product122">원</d>
+                                <dd>41%</dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/03/15/320_CBD12B96D1FC47648092.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <div class="store_product1-wrap">
+                                <div class="store_product1-item">
+                                    <img src="https://shop.pulmuone.co.kr/assets/pc/images/common/orga-filled.svg"
+                                        alt="">
+                                </div>
+                                <pigcaption>올가</pigcaption>
+                            </div>
+                            <span class="store_product11">강원도 강냉이 (150g)</span>
+                            <div class="store_info1">
+                                <d class="store_product111">3,800</d>
+                                <span class="store_product12">2,900</span>
+                                <d class="store_product122">원</d>
+                                <dd>23%</dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/04/26/320_77691C7C807743CAB687.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <pigcaption>풀무원</pigcaption>
+                            <span class="store_product11">[식물성지구식단] Silky두유면 (150g)</span>
+                            <div class="store_info1">
+                                <d class="store_product111">2,480</d>
+                                <span class="store_product12">2,180</span>
+                                <d class="store_product122">원</d>
+                                <dd>12%</dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/05/17/320_EA1D8C44D7BA4CBCA81C.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <div class="store_product1-wrap">
+                                <div class="store_product1-item">
+                                    <img src="https://shop.pulmuone.co.kr/assets/pc/images/common/orga-filled.svg"
+                                        alt="">
+                                </div>
+                                <pigcaption>ORGA</pigcaption>
+                            </div>
+                            <span class="store_product11">구운 두부스낵 (65g)</span>
+                            <div class="store_info1">
+                                <d class="store_product111">4,300</d>
+                                <span class="store_product12">3,200</span>
+                                <d class="store_product122">원</d>
+                                <dd>25%</dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/06/21/320_10AF7A7833624EDCAF28.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <div class="store_product1-wrap">
+                                <div class="store_product1-item">
+                                    <img src="https://shop.pulmuone.co.kr/assets/pc/images/common/orga-filled.svg"
+                                        alt="">
+                                </div>
+                                <pigcaption>올가</pigcaption>
+                            </div>
+                            <span class="store_product11">ORGA 딸기가 들어간 샌드웨이퍼 32g</span>
+                            <div class="store_info1">
+                                <d class="store_product111"></d>
+                                <span class="store_product12">3,500</span>
+                                <d class="store_product122">원</d>
+                                <dd></dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+                    <div class="store_box1">
+                        <div class="store_img1">
+                            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2020/12/10/320_5B698621342240EFA8E5.jpg"
+                                alt="">
+                        </div>
+                        <div class="store_product1">
+                            <div class="store_product1-wrap">
+                                <div class="store_product1-item">
+                                    <img src="https://shop.pulmuone.co.kr/assets/pc/images/common/orga-filled.svg"
+                                        alt="">
+                                </div>
+                                <pigcaption>올가</pigcaption>
+                            </div>
+                            <span class="store_product11">멀티박 무항생제 한우 국거리 (200g)</span>
+                            <div class="store_info1">
+                                <d class="store_product111">19,800</d>
+                                <span class="store_product12">10,900</span>
+                                <d class="store_product122">원</d>
+                                <dd>44%</dd>
+                                <button><img
+                                        src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                        alt=""></button>
+                            </div>
+                            <div class="star1"></div>
+                            <span class="star_11"></span>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="new">
+        <div class="new_inner">
+            <div class="new_text">
+                <a>NEW, 제일 먼저 만나요</a>
+                <a>></a>
+            </div>
+            <div class="new_box">
+                <div class="new1">
+                    <div class="newimg1"><img
+                            src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/07/24/E4E13E75470D4F4CBE8E.jpg" alt="">
+                    </div>
+                    <div class="product_info1">
+                        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/04/26/216_77691C7C807743CAB687.jpg"
+                            alt="">
+
+                        <div class="newinfo_box1">
+                            <span class="info_box1">풀무원</span>
+                            <span class="info_box2">[식물성지구식단]Silky두유면 비빔국수 2인(423g)</span>
+                        </div>
+
+                        <div class="newinfo_price1">
+                            <span class="info_price1">2,400</span>
+                            <span class="info_price2">2,000</span>
+                            <span class="info_price3">원</span>
+                            <span class="info_price4">19%</span>
+                            <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="new2">
+                    <div class="newimg2">
+                        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/04/20/5E8BD8DE209347F48801.png"
+                            alt="">
+                    </div>
+                    <div class="product_info2">
+                        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/03/03/216_CD7FF248BD104D06BB37.jpg"
+                            alt="">
+
+                        <div class="newinfo_box2">
+                            <span class="info_box21">풀무원</span>
+                            <span class="info_box22">[식물성지구식단]라이트 불고기 브리또(110gX3개입)</span>
+                        </div>
+
+                        <div class="newinfo_price2">
+                            <span class="info_price21">9,600</span>
+                            <span class="info_price22">6,980</span>
+                            <span class="info_price23">원</span>
+                            <span class="info_price24">27%</span>
+                            <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="new3">
+                    <div class="newimg3">
+                        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/06/25/E9A154AC118F4BFA883E.jpg"
+                            alt="">
+                    </div>
+                    <div class="product_info3">
+                        <img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/06/13/216_9178602E181340769255.jpg"
+                            alt="">
+
+                        <div class="newinfo_box3">
+                            <span class="info_box31">풀무원</span>
+                            <span class="info_box32">[식물성지구식단]라이트 불고기 브리또(110gX3개입)</span>
+                        </div>
+
+                        <div class="newinfo_price3">
+                            <span class="info_price31">9,600</span>
+                            <span class="info_price32">6,980</span>
+                            <span class="info_price33">원</span>
+                            <span class="info_price34">27%</span>
+                            <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <section class="sale">
+        <div class="sale_inner">
+            <div class="sale_text">
+                <a>골라담아, 묶음할인</a>
+                <a>></a>
+            </div>
+            <div class="sale_box">
+                <div class="sale_box1">
+                    <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/03/15/D5F1F6D0DAF94143A95F.jpg" alt="">
+                </div>
+                <div class="sale_box2">
+                    <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/03/15/6CF6CE8A283745F1AFDF.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sell">
+        <div class="sell_inner">
+            <div class="sell_text">
+                <a>요즘, 많이 찾는 상품</a>
+                <a>></a>
+            </div>
+            <div class="sell_inner1">
+                <div class="sell_itembox">
+                    <div class="sell_item">
+                        <span>#풀무원 베스트</span>
+                    </div>
+                    <div class="sell_item">
+                        <span>#견과간식</span>
+                    </div>
+                    <div class="sell_item">
+                        <span>#추천 녹즙</span>
+                    </div>
+                    <div class="sell_item">
+                        <span>#가전 신제품 출시!</span>
+                    </div>
+                    <div class="sell_item">
+                        <span>#풀무원 라면</span>
+                    </div>
+                </div>
+
+                <ul class="sell_product">
+
+                    <li class="sell_product2">
+                        <div class="sell_proimg2"><img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2020/12/09/320_9611292868BE4FC59E83.jpg" alt=""></div>
+                        <div class="sell_info2">
+                            <figcaption>풀무원</figcaption>
+                            <span class="sell_info21">목초달걀 무항생제 1등급특란(15개) (900g)</span>
+                            <div class="info_inner2">
+                                <dd class="sell_info22"></dd>
+                                <span class="sell_price2">8,980</span>
+                                <dd class="sell_info23">원</dd>
+                                <dd class="sell_price24"></dd>
+                                <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png" alt=""></button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="sell_product3">
+                        <div class="sell_proimg3"><img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/07/11/320_253BF7B5C8B94A9FBF86.jpg" alt=""></div>
+                        <div class="sell_info3">
+                            <figcaption>풀무원</figcaption>
+                            <span class="sell_info31">얇은피꽉찬속 고기만두 (400gx2봉)</span>
+                            <div class="info_inner3">
+                                <dd class="sell_info32">9,400</dd>
+                                <span class="sell_price3">8,480</span>
+                                <dd class="sell_info33">원</dd>
+                                <dd class="sell_price34">10%</dd>
+                                <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png" alt=""></button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="sell_product1">
+                        <div class="sell_proimg1"><img
+                                src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2022/09/13/4C4DEE4A740B42819C0F.jpg"
+                                alt=""></div>
+                        <div class="sell_info1">
+                            <figcaption>풀무원</figcaption>
+                            <span class="sell_info11">식물성지구식단 LIKE 텐더 (400gx2개)</span>
+                            <div class="info_inner1">
+                                <dd class="sell_info12"></dd>
+                                <span class="sell_price1">15,960</span>
+                                <dd class="sell_info13">원</dd>
+                                <dd class="sell_price14"></dd>
+                                <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png" alt=""></button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="sell_product4">
+                        <div class="sell_proimg4"><img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2023/07/11/320_EEC11D4C06A94750A71B.jpg" alt=""></div>
+                        <div class="sell_info4">
+                            <figcaption>풀무원</figcaption>
+                            <span class="sell_info41">얇은피꽉찬속 김치만두 (400gx2봉)</span>
+                            <div class="info_inner4">
+                                <dd class="sell_info42">9,480</dd>
+                                <span class="sell_price4">8,480</span>
+                                <dd class="sell_info43">원</dd>
+                                <dd class="sell_price44">10%</dd>
+                                <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png" alt=""></button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="sell_product5">
+                        <div class="sell_proimg5"><img src="https://shoppulmuone.cdn.ntruss.com/BOS/il/2022/09/20/320_101F94632E8540C798A3.jpg" alt=""></div>
+                        <div class="sell_info5">
+                            <figcaption>풀무원</figcaption>
+                            <span class="sell_info51">노엣지 꽉찬토핑피자 파이브치즈 (376g)</span>
+                            <div class="info_inner5">
+                                <dd class="sell_info52"></dd>
+                                <span class="sell_price5">9,980</span>
+                                <dd class="sell_info53">원</dd>
+                                <dd class="sell_price54"></dd>
+                                <button><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/shopping-cart-128.png" alt=""></button>
+                            </div>
+                        </div>
+                    </li>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="middle">
+        <div class="middle_box">
+            <img src="https://shoppulmuone.cdn.ntruss.com/BOS/dp/2023/08/01/0851DA1CB251440FB0D2.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="brand"></section>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
